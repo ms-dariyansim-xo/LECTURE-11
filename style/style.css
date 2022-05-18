@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body{
+    background-color: teal;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+#fontweightstyle{
+    border: 2px solid black;
+    height: 100px;
+    
+}
+
+#fontweightstyle p{
+    font-weight: 500;
+    /*font-style: italics;
+    Can use as emphasis*/
+}
+
+.repeatedBold{
+    color: white;
+    font-weight: 800px;
+}
+
+#pseudo{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+
+}
+
+.button{
+    border: 1px solid white;
+}
